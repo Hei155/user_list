@@ -1,0 +1,27 @@
+.search {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.user {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.user__avatar {
+    max-width: 200px;
+}
+
+.pagination {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+    justify-content: center;
+}
+
+.pagination__btn {
+    width: 100px;
+    cursor: pointer;
+}
